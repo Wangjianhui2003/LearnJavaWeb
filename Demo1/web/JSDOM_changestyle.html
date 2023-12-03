@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function mouseover(){
+            var el1 = document.getElementById("text1")
+            el1.style.color="green"
+            el1.style.borderRadius="0px"
+        }
+        function mouseleave(){
+            var el1 = document.getElementById("text1")
+            el1.style.color="red"
+            el1.style.borderRadius="5px"
+        }
+
+        function div1click(){
+            var el1 = document.getElementById("div1")
+            console.log(el1.innerText)
+        }
+    </script>
+    <style>
+        #text1{
+            color: red;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" id="text1" onmouseover="mouseover()" onmouseleave="mouseleave()">
+
+    <div id="div1" onclick="div1click()">Click!</div>
+</body>
+</html>

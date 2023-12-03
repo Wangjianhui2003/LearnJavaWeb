@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Ajax/Ajax.iml" filepath="$PROJECT_DIR$/Ajax/Ajax.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Conf_Context/Conf_Context.iml" filepath="$PROJECT_DIR$/Conf_Context/Conf_Context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Cookie/Cookie.iml" filepath="$PROJECT_DIR$/Cookie/Cookie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo1/Demo1.iml" filepath="$PROJECT_DIR$/Demo1/Demo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Filter/Filter.iml" filepath="$PROJECT_DIR$/Filter/Filter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/JavaWebProject.iml" filepath="$PROJECT_DIR$/.idea/JavaWebProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Redirect/Redirect.iml" filepath="$PROJECT_DIR$/Redirect/Redirect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VerifyAccount/VerifyAccount.iml" filepath="$PROJECT_DIR$/VerifyAccount/VerifyAccount.iml" />
+      <module fileurl="file://$PROJECT_DIR$/schedule_system/schedule_system.iml" filepath="$PROJECT_DIR$/schedule_system/schedule_system.iml" />
+    </modules>
+  </component>
+</project>

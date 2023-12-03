@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function show(){
+            var request = new XMLHttpRequest();
+            request.onreadystatechange=function(){
+                if(request.readyState ==4 && request.status==200){
+                    var Head1 = document.getElementById("head1");
+                    Head1.textContent = request.responseText;
+
+                }
+            }
+            var textarea1 = document.getElementById("textarea1");
+            var username = textarea1.value;
+            request.open("get","/Ajax/hello?username="+username);
+            request.send();
+        }
+    </script>
+</head>
+<body>
+    <textarea id="textarea1" onblur="show()"></textarea>
+    <h1 id="head1">Hello</h1>
+</body>
+</html>
